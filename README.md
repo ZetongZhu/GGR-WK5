@@ -1,0 +1,1 @@
+This publishment contains two files. The html file outlines a map style created using mapbox studio, with two layers added on top. One is a Geojson file representing four UofT building locations with adjusted symbology, the other is a GTA census tract file. THe Script.js file defines the style of the symbology, including a precipitation effect, considering the current season. 
