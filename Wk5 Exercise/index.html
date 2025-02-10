@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Mapbox GL JS map</title>
+    <!-- Title of the web page -->
+    <title>Zetong's Lab 2 map</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- MapBox map styling -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css" rel="stylesheet">
+    <!-- MapBox functionalities -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css' rel='stylesheet' />
+    
     <style>
+        /* Setting boundaries for map displaying on the website */
         body {
             margin: 0;
             padding: 0;
@@ -23,15 +28,11 @@
 </head>
 
 <body>
+    <!-- The section for map -->
     <div id="map"></div>
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiemV0b25nemh1IiwiYSI6ImNtNmllamU0ejAwMzcya3BvaHl4cHdyNTEifQ.8DeoWcpHZR2z0XiEGvRoJw';
-        const map = new mapboxgl.Map({
-            container: 'map', // container ID
-            center: [-74.5, 40], // starting position [lng, lat]. Note that lat must be set between -90 and 90
-            zoom: 9 // starting zoom
-        });
-    </script>
+
+    <!-- Link to script.css file for styling on top of the base-->
+    <script src="script.js"></script>
 
 </body>
 
