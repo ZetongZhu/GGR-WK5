@@ -41,8 +41,9 @@ map.on('style.load', () => {
         direction: [0, 80],
         'droplet-size': [2.6, 18.2],
         'distortion-strength': 0.7,
-        'center-thinning': 0
-
+                'center-thinning': 0
+        });
+    
         map.on('load', () => {
             map.addSource('subway-lines', {
                 type: 'geojson',
@@ -62,7 +63,5 @@ map.on('style.load', () => {
                     'line-width': 4
                 }
             });
-        })
-
     });
 });
